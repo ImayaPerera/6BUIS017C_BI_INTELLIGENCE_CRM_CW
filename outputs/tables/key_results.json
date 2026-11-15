@@ -1,6 +1,6 @@
 {
   "data_source": "LIVE yfinance download",
-  "retrieval_utc": "2026-11-15T06:58:35.090436+00:00",
+  "retrieval_utc": "2026-11-15T07:57:22.936377+00:00",
   "n_constituents": 503,
   "n_included_after_validation": 486,
   "n_excluded_validation": 17,
@@ -10,13 +10,13 @@
   "first_week": "2021-01-08",
   "last_week": "2024-12-27",
   "estimation_limits": {
-    "median_beta_se": 0.10067473751130226,
-    "median_beta_95ci_halfwidth": 0.19849066476461508,
+    "median_beta_se": 0.10067474263562853,
+    "median_beta_95ci_halfwidth": 0.19849067486775465,
     "pct_shares_whose_beta_95ci_contains_1": 43.20987654320987,
-    "median_R2_market_model": 0.28374604084397753,
+    "median_R2_market_model": 0.2837460294743293,
     "pct_shares_R2_below_0.25": 39.09465020576132,
     "pct_shares_mean_return_|t|>2": 11.11111111111111,
-    "median_mean_return_se": 0.0026932893360913984
+    "median_mean_return_se": 0.002693290737677407
   },
   "pct_flagged_days_on_quad_witching": 0.20147702407002188,
   "most_common_latest_event": "2024-12-20",
@@ -239,8 +239,8 @@
       "kmeans_k": 5,
       "ARI": 0.3293888126357158,
       "NMI": 0.5086439799445518,
-      "silhouette_ward": 0.3041350247391833,
-      "silhouette_kmeans": 0.33813061932317134
+      "silhouette_ward": 0.30413495159630627,
+      "silhouette_kmeans": 0.33813062892600954
     },
     {
       "matrix": "rfm",
