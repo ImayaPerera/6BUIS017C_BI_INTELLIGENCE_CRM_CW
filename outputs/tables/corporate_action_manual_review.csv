@@ -1,0 +1,4 @@
+ticker,n_splits,n_dividends,split_dates,max_abs_daily_move_close,max_abs_daily_move_adj,max_daily_change_adj_to_close_ratio,split_in_last_80_sessions,possible_unadjusted_split,split_volume_ratio_after_before,possible_unadjusted_volume,max_volume_to_median,dates_outside_benchmark_calendar
+BE,0,0,,0.5918674559279298,0.5918674559279298,0.0,False,False,,False,18.330227420770907,0
+CVNA,0,0,,0.5602061422645068,0.5602061422645068,0.0,False,False,,False,35.09513446602911,0
+GL,0,16,,0.5314019057853758,0.5314018862003969,0.0029196999025657977,False,False,,False,72.57440476190476,0

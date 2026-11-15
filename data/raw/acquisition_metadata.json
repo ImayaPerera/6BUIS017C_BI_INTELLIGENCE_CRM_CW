@@ -1,0 +1,19 @@
+{
+  "data_source": "LIVE yfinance download",
+  "retrieval_utc": "2026-11-15T06:58:35.090436+00:00",
+  "constituents_file": "constituents_20261115.csv",
+  "constituents_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+  "price_source": "yfinance 1.8.0 (Yahoo Finance), auto_adjust=False, actions=True",
+  "study_start": "2021-01-01",
+  "study_end_exclusive": "2025-01-01",
+  "benchmark": "^GSPC",
+  "n_tickers_requested": 503,
+  "n_tickers_returned": 498,
+  "tickers_with_no_data": [
+    "FDXF",
+    "HONA",
+    "Q",
+    "SNDK",
+    "VYLR"
+  ]
+}

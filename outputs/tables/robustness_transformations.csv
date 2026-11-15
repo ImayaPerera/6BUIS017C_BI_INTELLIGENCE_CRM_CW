@@ -1,0 +1,4 @@
+variant,ARI_vs_baseline
+"log1p(R), log1p(F), log1p(M)",0.7029451726354309
+"R, F winsorised 1/99%, log1p(M)",0.4458146631214055
+risk-return winsorised 1/99%,0.7811171197645327

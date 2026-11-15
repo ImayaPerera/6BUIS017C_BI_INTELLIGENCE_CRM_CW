@@ -1,0 +1,334 @@
+{
+  "data_source": "LIVE yfinance download",
+  "retrieval_utc": "2026-11-15T06:58:35.090436+00:00",
+  "n_constituents": 503,
+  "n_included_after_validation": 486,
+  "n_excluded_validation": 17,
+  "n_manual_review": 3,
+  "weekly_price_weeks": 208,
+  "weekly_returns_per_share": 207,
+  "first_week": "2021-01-08",
+  "last_week": "2024-12-27",
+  "estimation_limits": {
+    "median_beta_se": 0.10067473751130226,
+    "median_beta_95ci_halfwidth": 0.19849066476461508,
+    "pct_shares_whose_beta_95ci_contains_1": 43.20987654320987,
+    "median_R2_market_model": 0.28374604084397753,
+    "pct_shares_R2_below_0.25": 39.09465020576132,
+    "pct_shares_mean_return_|t|>2": 11.11111111111111,
+    "median_mean_return_se": 0.0026932893360913984
+  },
+  "pct_flagged_days_on_quad_witching": 0.20147702407002188,
+  "most_common_latest_event": "2024-12-20",
+  "pct_shares_with_that_latest_event": 72.63374485596708,
+  "observation_date": "2024-12-31",
+  "n_included": 486,
+  "n_no_event": 0,
+  "n_clustering_set": 486,
+  "skew_M_raw": 11.683796873806314,
+  "skew_log1p_M": 1.0790573618432246,
+  "k_subsample_stability": [
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 2,
+      "mean_ARI": 0.394,
+      "p05_ARI": -0.044
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 3,
+      "mean_ARI": 0.323,
+      "p05_ARI": 0.095
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 4,
+      "mean_ARI": 0.395,
+      "p05_ARI": 0.183
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 5,
+      "mean_ARI": 0.416,
+      "p05_ARI": 0.253
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 6,
+      "mean_ARI": 0.454,
+      "p05_ARI": 0.261
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 7,
+      "mean_ARI": 0.471,
+      "p05_ARI": 0.298
+    },
+    {
+      "matrix": "rr",
+      "method": "ward",
+      "k": 8,
+      "mean_ARI": 0.502,
+      "p05_ARI": 0.35
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 2,
+      "mean_ARI": 0.968,
+      "p05_ARI": 0.847
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 3,
+      "mean_ARI": 0.937,
+      "p05_ARI": 0.782
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 4,
+      "mean_ARI": 0.822,
+      "p05_ARI": 0.551
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 5,
+      "mean_ARI": 0.723,
+      "p05_ARI": 0.32
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 6,
+      "mean_ARI": 0.595,
+      "p05_ARI": 0.354
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 7,
+      "mean_ARI": 0.571,
+      "p05_ARI": 0.368
+    },
+    {
+      "matrix": "rr",
+      "method": "kmeans",
+      "k": 8,
+      "mean_ARI": 0.785,
+      "p05_ARI": 0.506
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 2,
+      "mean_ARI": 0.836,
+      "p05_ARI": 0.689
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 3,
+      "mean_ARI": 0.576,
+      "p05_ARI": 0.27
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 4,
+      "mean_ARI": 0.495,
+      "p05_ARI": 0.304
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 5,
+      "mean_ARI": 0.49,
+      "p05_ARI": 0.302
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 6,
+      "mean_ARI": 0.499,
+      "p05_ARI": 0.311
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 7,
+      "mean_ARI": 0.507,
+      "p05_ARI": 0.306
+    },
+    {
+      "matrix": "rfm",
+      "method": "ward",
+      "k": 8,
+      "mean_ARI": 0.544,
+      "p05_ARI": 0.333
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 2,
+      "mean_ARI": 0.892,
+      "p05_ARI": 0.193
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 3,
+      "mean_ARI": 0.805,
+      "p05_ARI": 0.213
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 4,
+      "mean_ARI": 0.966,
+      "p05_ARI": 0.921
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 5,
+      "mean_ARI": 0.901,
+      "p05_ARI": 0.601
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 6,
+      "mean_ARI": 0.897,
+      "p05_ARI": 0.764
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 7,
+      "mean_ARI": 0.86,
+      "p05_ARI": 0.596
+    },
+    {
+      "matrix": "rfm",
+      "method": "kmeans",
+      "k": 8,
+      "mean_ARI": 0.671,
+      "p05_ARI": 0.405
+    }
+  ],
+  "selected_k": {
+    "ward_rr": 5,
+    "km_rr": 5,
+    "ward_rfm": 4,
+    "km_rfm": 4
+  },
+  "algorithm_comparison": [
+    {
+      "matrix": "rr",
+      "n_shares": 486,
+      "ward_k": 5,
+      "kmeans_k": 5,
+      "ARI": 0.3293888126357158,
+      "NMI": 0.5086439799445518,
+      "silhouette_ward": 0.3041350247391833,
+      "silhouette_kmeans": 0.33813061932317134
+    },
+    {
+      "matrix": "rfm",
+      "n_shares": 486,
+      "ward_k": 4,
+      "kmeans_k": 4,
+      "ARI": 0.3429698186450182,
+      "NMI": 0.4362468644235532,
+      "silhouette_ward": 0.28876483056823715,
+      "silhouette_kmeans": 0.34086654880021056
+    }
+  ],
+  "corr_pearson": {
+    "R": {
+      "R": 1.0,
+      "F": -0.346,
+      "log1p_M": 0.152
+    },
+    "F": {
+      "R": -0.346,
+      "F": 1.0,
+      "log1p_M": 0.013
+    },
+    "log1p_M": {
+      "R": 0.152,
+      "F": 0.013,
+      "log1p_M": 1.0
+    }
+  },
+  "eigen_share_first": 0.4579357461305494,
+  "eta2": {
+    "R": 0.648,
+    "F": 0.364,
+    "log1p_M": 0.524
+  },
+  "ARI_rfm3_vs_rf_only": 0.20264092343212822,
+  "kruskal_p_logM": 0.1362217607857737,
+  "eta2_logM_rf_only": 0.004988139411630568,
+  "eta2_logM_3feat": 0.5244334567736203,
+  "robustness": [
+    {
+      "variant": "log1p(R), log1p(F), log1p(M)",
+      "ARI_vs_baseline": 0.7029451726354309
+    },
+    {
+      "variant": "R, F winsorised 1/99%, log1p(M)",
+      "ARI_vs_baseline": 0.4458146631214055
+    },
+    {
+      "variant": "risk-return winsorised 1/99%",
+      "ARI_vs_baseline": 0.7811171197645327
+    }
+  ],
+  "review_summary": {
+    "low_expected_cells_rr_vs_rfm": 0.05,
+    "ARI_rr_vs_rfm": 0.03995658027334668,
+    "NMI_rr_vs_rfm": 0.02861612089037545,
+    "cramers_v_rr_vs_rfm": 0.15917339573486838,
+    "chi2_p_rr_vs_rfm": 0.00022845427648980987,
+    "low_expected_cells_sector_Risk-return": 0.34545454545454546,
+    "sector_cramers_v_Risk-return": 0.42723413785201253,
+    "sector_chi2_p_Risk-return": 4.3953729856410306e-52,
+    "low_expected_cells_sector_Trading-activity": 0.22727272727272727,
+    "sector_cramers_v_Trading-activity": 0.2346092260792179,
+    "sector_chi2_p_Trading-activity": 1.8182805558616257e-06
+  },
+  "survivorship": {
+    "constituents_on_retrieval_date": 503,
+    "shares_retained_after_validation": 486,
+    "shares_in_clustering_set": 486,
+    "retained_shares_added_to_index_after_2021-01-01": 72
+  },
+  "sector_tests_robust": {
+    "Risk-return clusters": {
+      "table": "5 clusters x 11 sectors",
+      "classic_chi2_p": 4.3953729856410306e-52,
+      "permutation_p": 9.999000099990002e-05,
+      "cramers_v": 0.42723413785201253,
+      "cramers_v_bias_corrected": 0.4040506162711724,
+      "pct_cells_expected_below_5": 34.54545454545455
+    },
+    "Trading-activity (RFM) clusters": {
+      "table": "4 clusters x 11 sectors",
+      "classic_chi2_p": 1.8182805558616257e-06,
+      "permutation_p": 9.999000099990002e-05,
+      "cramers_v": 0.23460922607921791,
+      "cramers_v_bias_corrected": 0.18611067372987408,
+      "pct_cells_expected_below_5": 22.727272727272727
+    }
+  }
+}
