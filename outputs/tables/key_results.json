@@ -1,5 +1,5 @@
 {
-  "data_source": "LIVE yfinance download",
+  "data_source": "CACHED SNAPSHOT (live access unavailable or FORCE_CACHE=True)",
   "retrieval_utc": "2026-11-15T07:57:22.936377+00:00",
   "n_constituents": 503,
   "n_included_after_validation": 486,
@@ -10,13 +10,13 @@
   "first_week": "2021-01-08",
   "last_week": "2024-12-27",
   "estimation_limits": {
-    "median_beta_se": 0.10067474263562853,
-    "median_beta_95ci_halfwidth": 0.19849067486775465,
+    "median_beta_se": 0.10067474263562856,
+    "median_beta_95ci_halfwidth": 0.19849067486775468,
     "pct_shares_whose_beta_95ci_contains_1": 43.20987654320987,
-    "median_R2_market_model": 0.2837460294743293,
+    "median_R2_market_model": 0.2837460294743294,
     "pct_shares_R2_below_0.25": 39.09465020576132,
     "pct_shares_mean_return_|t|>2": 11.11111111111111,
-    "median_mean_return_se": 0.002693290737677407
+    "median_mean_return_se": 0.002693290737677408
   },
   "pct_flagged_days_on_quad_witching": 0.20147702407002188,
   "most_common_latest_event": "2024-12-20",
@@ -240,7 +240,7 @@
       "ARI": 0.3293888126357158,
       "NMI": 0.5086439799445518,
       "silhouette_ward": 0.30413495159630627,
-      "silhouette_kmeans": 0.33813062892600954
+      "silhouette_kmeans": 0.3381306289260096
     },
     {
       "matrix": "rfm",
@@ -290,7 +290,7 @@
       "ARI_vs_baseline": 0.4458146631214055
     },
     {
-      "variant": "risk-return winsorised 1/99%",
+      "variant": "risk return winsorised 1/99%",
       "ARI_vs_baseline": 0.7811171197645327
     }
   ],
@@ -300,12 +300,12 @@
     "NMI_rr_vs_rfm": 0.02861612089037545,
     "cramers_v_rr_vs_rfm": 0.15917339573486838,
     "chi2_p_rr_vs_rfm": 0.00022845427648980987,
-    "low_expected_cells_sector_Risk-return": 0.34545454545454546,
-    "sector_cramers_v_Risk-return": 0.42723413785201253,
-    "sector_chi2_p_Risk-return": 4.3953729856410306e-52,
-    "low_expected_cells_sector_Trading-activity": 0.22727272727272727,
-    "sector_cramers_v_Trading-activity": 0.2346092260792179,
-    "sector_chi2_p_Trading-activity": 1.8182805558616257e-06
+    "low_expected_cells_sector_Risk": 0.34545454545454546,
+    "sector_cramers_v_Risk": 0.42723413785201253,
+    "sector_chi2_p_Risk": 4.3953729856410306e-52,
+    "low_expected_cells_sector_Trading": 0.22727272727272727,
+    "sector_cramers_v_Trading": 0.2346092260792179,
+    "sector_chi2_p_Trading": 1.8182805558616257e-06
   },
   "survivorship": {
     "constituents_on_retrieval_date": 503,
